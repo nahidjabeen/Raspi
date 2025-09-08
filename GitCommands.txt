@@ -1,0 +1,25 @@
+
+nahid@Nice2behere MINGW64 /c/PROJECTS-NJK/GitStuff-FAQ
+$ git clone https://github.com/nahidjabeen/Raspi.git
+Cloning into 'Raspi'...
+warning: You appear to have cloned an empty repository.
+
+nahid@Nice2behere MINGW64 /c/PROJECTS-NJK/GitStuff-FAQ
+$ ls
+Raspi/
+
+
+Create a new repository on the command line
+echo "# Raspi" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nahidjabeen/Raspi.git
+git push -u origin main
+
+
+Push an existing repository from the command line
+git remote add origin https://github.com/nahidjabeen/Raspi.git
+git branch -M main
+git push -u origin main

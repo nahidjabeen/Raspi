@@ -1,0 +1,2 @@
+Download Raspberry Pi Imager from:
+https://www.raspberrypi.com/software/
